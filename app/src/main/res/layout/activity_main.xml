@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:id="@+id/propType"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:ems="10"
+        android:spinnerMode="dropdown" />
+
+    <Spinner
+        android:id="@+id/bedroom"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:ems="10"
+        android:spinnerMode="dropdown" />
+
+    <EditText
+        android:id="@+id/editDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/date" />
+
+    <EditText
+        android:id="@+id/editPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/price"
+        android:inputType="number" />
+
+    <Spinner
+        android:id="@+id/furniture"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:ems="10"
+        android:spinnerMode="dropdown" />
+
+    <EditText
+        android:id="@+id/editNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/notes"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editReporter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/reporter"
+        android:inputType="text" />
+
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonSave"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+
+</LinearLayout>

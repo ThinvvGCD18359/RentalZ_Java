@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">RentalZ</string>
+    <string name="date">Create On</string>
+    <string name="notes">Notes</string>
+    <string name="price">Price</string>
+    <string name="reporter">Reporter</string>
+    <string-array name="propType">
+        <item>Flat</item>
+        <item>House</item>
+        <item>Bungalow</item>
+    </string-array>
+    <string-array name="bedroom">
+        <item>Studio</item>
+        <item>One</item>
+        <item>Two</item>
+    </string-array>
+    <string-array name="furniture">
+        <item>Furnished</item>
+        <item>Unfurnished</item>
+        <item>Part Furnished</item>
+    </string-array>
+    <string name="submit">Submit</string>
+
+    <string name="userExist">Existing User</string>
+</resources>
